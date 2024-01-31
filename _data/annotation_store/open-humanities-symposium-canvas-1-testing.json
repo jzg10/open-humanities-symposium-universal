@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://jzg10.github.io/open-humanities-symposium-universal/annotations/open-humanities-symposium-canvas-1-testing.json",
+  "type": "AnnotationPage",
+  "label": "Testing",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "open-humanities-symposium-canvas-1-testing-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Test",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://jzg10.github.io/open-humanities-symposium-universal/open-humanities-symposium/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://jzg10.github.io/open-humanities-symposium-universal/open-humanities-symposium/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "13.0,18.0"
+        }
+      }
+    }
+  ]
+}

@@ -23,6 +23,16 @@
         "id": "https://jzg10.github.io/open-humanities-symposium-universal/open-humanities-symposium/canvas-1/canvas",
         "type": "Canvas",
         "duration": 7189,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://jzg10.github.io/open-humanities-symposium-universal/annotations/open-humanities-symposium-canvas-1-testing.json",
+            "label": {
+              "none": ["Testing"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://jzg10.github.io/open-humanities-symposium-universal/open-humanities-symposium/canvas-1/paintings",
